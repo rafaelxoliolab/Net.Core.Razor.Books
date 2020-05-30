@@ -14,3 +14,16 @@ Hope this example help others as point of reference to start learning programmin
 - **Pages folder**: Contains the Razor pages of the website.
   - **Shared/__Layout.cshtml**: Default masterpage for the application.
   - **Shared/__ValidationScriptsPartial.cshtml**: Scripts used for validation.
+  - **__VieStart.cshtml**: used to define the default masterpage layout.
+  - **Index.cshtml**: default page.
+  - **Error.cshtml**: default error page.
+
+## Basic Concepts
+
+- Routing
+  - Maps URL's to Physical file on disk. 
+  - Needs a root folder
+  - Index.cshtml is a default document
+
+## Creating our project.
+1. 

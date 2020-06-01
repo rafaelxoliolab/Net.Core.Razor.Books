@@ -111,4 +111,21 @@ Book Store
     - Command ```update-database```
     - Go to SQL Server an validate that Book table was created.
     
-
+9. Create Index page
+    - Add Razor Page
+      - Right-click on Book folder
+      - Choose Add -> Razor Page
+      - Razor Page name: Index
+    - Add DbContext call by DI
+      ```C#
+      //Add readonly property.
+      private readonly ApplicationDbContext db;
+      // Add construct class with dbContext parameter injected by DI
+      public IndexModel(ApplicationDbContext db)
+      {
+          this.db = db;
+      }
+      ```
+    
+      
+    

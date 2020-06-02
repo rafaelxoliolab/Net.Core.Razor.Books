@@ -111,7 +111,7 @@ Book Store
     - Command ```update-database```
     - Go to SQL Server an validate that Book table was created.
     
-9. Create Index page
+9. Create Razor pages 
     - Add Razor Page
       - Right-click on Book folder
       - Choose Add -> Razor Page
@@ -126,6 +126,19 @@ Book Store
           this.db = db;
       }
       ```
+    - Add content for the cshtml and cshtml.cs files
+   
+10. Create Index.cshtml page
+    - Follow steps mencioned in the 9 step.
+    - Add new menu link into __Layout.cshtml
+    ```Razor
+      <li class="nav-item">
+          <a class="nav-link text-dark" asp-area="" asp-page="/Books/Index">Books</a>
+      </li>
+    ```
+11. Create Create.cshtml page
+12. Create Edit.cshtml page
+13. Add Delete functionality into Index.cshtml
     
       
     
